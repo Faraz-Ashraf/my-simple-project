@@ -1,0 +1,310 @@
+body {
+    position: absolute;
+    left: 0;
+}
+
+#first-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+
+#icon {
+    width: 3rem;
+    margin-left: 2.4rem;
+}
+
+#icon img {
+    /* width: 100%; */
+    height: 3rem;
+    transition: 2.3s;
+}
+
+#icon img:hover {
+    transform: scale(1.7);
+}
+
+#nav nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    left: 20rem;
+}
+
+nav li {
+    font-family: 'Cute Font', cursive;
+    margin: 1rem 2rem;
+    font-size: 1.3rem;
+    transition: 1.5s;
+}
+
+nav li:hover {
+    background-color: aqua;
+    padding: 2px 3px;
+    cursor: pointer;
+}
+
+#get-app {
+    width: 100%;
+    position: relative;
+    right: -30rem;
+    background-color: black;
+    width: 6.2rem;
+    margin: 0 1.5rem;
+    padding: 0 1rem;
+    transition: 3s;
+}
+
+#get-app p {
+    color: white;
+    letter-spacing: 0.4rem;
+}
+
+#get-app:hover {
+    background-color: brown;
+    cursor: pointer;
+}
+
+#section-1 {
+    margin: 4rem 2.4rem;
+    /* position: relative; */
+    width: 100%;
+}
+
+.paragraph-1 {
+    font-size: 1.4rem;
+    font-family: 'Chathura', sans-serif;
+    font-weight: 800;
+}
+
+.paragraph-2 {
+    font-size: 03rem;
+    margin-top: -1rem;
+    font-family: 'Charmonman', cursive;
+}
+
+.paragraph-3 {
+    font-size: 1.2rem;
+    margin-top: -3rem;
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 600;
+}
+
+#section-2 {
+    display: flex;
+    align-items: center;
+}
+
+#input input {
+    width: 13.4rem;
+    height: 1rem;
+    padding: 1rem;
+    border: 2px solid black;
+    transition: 1s;
+}
+
+#input input:hover {
+    transform: scale(1.1);
+}
+
+.input-color {
+    color: darkred;
+}   
+
+.firstinput {
+    background-color: darkred;
+}
+
+#chars-count {
+    margin: 0 1rem;
+}
+
+#get-started {
+    margin: 0 2.5rem;
+}
+
+#get-started button {
+    background-color: rgb(8, 8, 153);
+
+    width: 8rem;
+    height: 3rem;
+    padding: 0.1rem 1rem;
+    color: white;
+    border: 1px solid rgb(8, 8, 153);
+}
+
+#get-started button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+}
+
+footer a {
+    color: black;
+    color: inherit;
+    display: inline;
+    font-size: 1.3rem;
+    margin: 4rem 2.4rem;
+    text-decoration: none;
+    font-family: 'Fuzzy Bubbles', cursive;
+    transition: 1s;
+}
+
+footer a:hover {
+    color: blue;
+    /* transform: scale(2.5); */
+}
+
+footer img {
+    position: relative;
+    right: -20rem;
+    float: right;
+    margin-top: -34rem;
+    /* margin-right: 8rem; */
+    height: 35.2rem;
+    transition: 3s;
+}
+
+footer img:hover {
+    transform: scale(1.3);
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        /* background-color: black; */
+        /* color: white; */
+        width: 100%;
+        position: relative;
+        top: 0rem;
+    }
+
+    #first-flex {
+        align-items: unset;
+    }
+
+    .flex {
+        align-items: center;
+    }
+
+    #icon {
+        margin: 0 1rem;
+        position: relative;
+        left: -0.5rem;
+    }
+
+    #nav nav {
+        align-items: unset;
+    }
+
+    ul {
+        position: relative;
+        left: -2.5rem;
+        width: 100%;
+        margin-top: 2.4rem;
+    }
+
+    nav li {
+        font-size: 1rem;
+        margin: 0 1rem;
+        padding: 0.1rem;
+        width: 100%;
+
+    }
+
+    #get-app {
+        position: relative;
+        right: 4rem;
+        width: 100%;
+        align-items: unset;
+        margin-bottom: 7.4rem;
+        margin-top: 0.5rem;
+    }
+
+    #get-app p {
+        font-size: 0.4rem;
+        letter-spacing: 0.1rem;
+       
+    } 
+    
+    #section-1 {
+        margin-top: 6rem;
+        position: relative;
+        left: -2rem;
+    }
+
+    .paragraph-1 {
+        font-size: 1.1rem;
+        margin-top: -7.1rem;
+    }
+
+    .paragraph-2 {
+        font-size: 1.7rem;
+        margin-top: -1.5rem;
+        width: 9rem;
+    }
+
+    .paragraph-3 {
+        font-size: 1rem;
+        margin-top: -0.7rem;
+    }
+
+    br {
+        display: none;
+    }
+
+    #input input {
+        width: 10.9rem;
+        height: 1rem;
+        padding: 0.2rem 1rem;
+        padding-right: 0.1rem;
+    }
+
+    #get-started {
+        position: relative;
+        right: 2.8rem;
+        width: 100%;
+    }
+
+    #get-started button {
+        height: 1.5rem;
+        font-size: 0.6rem;
+        padding: 0.3rem 0.1rem;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    footer a {
+        position: relative;
+        left: 3rem;
+        font-size: 0.5rem;
+        margin: 1.5rem 1.9rem;
+    }
+
+    footer img {
+        height: 18rem;
+        float: right;
+        margin-top: -28rem;
+        position: relative;
+        right: 5rem;
+    }
+}
